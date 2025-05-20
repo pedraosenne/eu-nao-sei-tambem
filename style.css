@@ -3,75 +3,56 @@
    padding: 0;
    box-sizing: border-box;
 }
-
-
 body {
    font-family: Arial, Helvetica, sans-serif;
    line-height: 1.6;
-   background-color: #f0f0f0;
+   background-color: #c50000;
    padding: 20px;
 }
-
-
 .descricao {
    text-align: center;
    margin-bottom: 2em;
 }
-
-
 .secao {
    max-width: 1200px;
    margin: 0 auto;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 2);
    border-radius: 9px;
    display: flex;
-   background-color: #dae2d8;
+   background-color: #368a21;
    padding: 10px;
 }
-
-
 .texto {
    flex: 1;
    padding-right: 20px;
    padding-left: 2em;
    align-self: center;
 }
-
-
 .texto h2 {
    line-height: 2em;
    margin-bottom: 1em;
    text-align: center;
 }
-
-
 .texto p {
    line-height: 2em;
    margin-bottom: 1.5em;
 }
-
-
 .imagem {
    flex: 1;
    text-align: center;
    align-self: center;
 }
-
-
 .imagem img {
    max-width: 100%;
    height: auto;
    border-radius: 8px;
 }
-
-
-@media(max-width:800px) .secao {
+@media (max-width: 800px){
+.secao {
    flex-direction: column;
 }
-
-
-.texto,
-.imagem {
+.texto,.imagem {
    padding: 10px;
+}
 }
 
